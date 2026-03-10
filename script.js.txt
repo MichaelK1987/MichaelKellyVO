@@ -31,3 +31,4 @@ wavesurfer3.load('audio/narration.mp3')
 function toggleAudio(player){
 player.playPause()
 }
+
