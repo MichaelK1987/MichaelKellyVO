@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Name | Voice Actor</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://unpkg.com/wavesurfer.js"></script>
+</head>
+
+<body>
+
+<header>
+<h1>Your Name</h1>
+<nav>
+<a href="#demos">Demos</a>
+<a href="#about">About</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+<h2>Professional Voice Actor</h2>
+<p>Characters • Narration • Commercial</p>
+<button onclick="document.getElementById('demos').scrollIntoView()">Listen Now</button>
+</section>
+
+<section id="demos">
+
+<h2>Demo Reels</h2>
+
+<div class="demo-grid">
+
+<div class="demo-card">
+<h3>Character Demo</h3>
+<div id="waveform1"></div>
+<button onclick="toggleAudio(wavesurfer1)">Play / Pause</button>
+</div>
+
+<div class="demo-card">
+<h3>Commercial Demo</h3>
+<div id="waveform2"></div>
+<button onclick="toggleAudio(wavesurfer2)">Play / Pause</button>
+</div>
+
+<div class="demo-card">
+<h3>Narration Demo</h3>
+<div id="waveform3"></div>
+<button onclick="toggleAudio(wavesurfer3)">Play / Pause</button>
+</div>
+
+</div>
+
+</section>
+
+<section id="about">
+
+<h2>About Me</h2>
+
+<p>
+I'm a voice actor specialising in character voices, cinematic narration,
+and commercial voiceovers.
+</p>
+
+<h3>Studio Setup</h3>
+
+<ul>
+<li>Microphone: Rode NT1</li>
+<li>Audio Interface: Focusrite Scarlett</li>
+<li>DAW: Adobe Audition</li>
+<li>Remote Recording Available</li>
+</ul>
+
+</section>
+
+<section id="contact">
+
+<h2>Contact</h2>
+
+<form>
+
+<input type="text" placeholder="Name">
+<input type="email" placeholder="Email">
+<textarea placeholder="Tell me about your project"></textarea>
+
+<button>Send Message</button>
+
+</form>
+
+</section>
+
+<footer>
+<p>© 2026 Your Name – Voice Actor</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

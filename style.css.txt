@@ -1,0 +1,77 @@
+body{
+margin:0;
+font-family:Arial;
+background:#0b0b0b;
+color:white;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+padding:20px 60px;
+background:black;
+}
+
+nav a{
+color:white;
+margin-left:20px;
+text-decoration:none;
+}
+
+.hero{
+height:80vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+background:linear-gradient(180deg,#000,#111);
+text-align:center;
+}
+
+.hero h2{
+font-size:48px;
+}
+
+button{
+background:red;
+color:white;
+border:none;
+padding:12px 24px;
+cursor:pointer;
+}
+
+.demo-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:30px;
+padding:40px;
+}
+
+.demo-card{
+background:#181818;
+padding:20px;
+border-radius:10px;
+}
+
+section{
+padding:60px;
+}
+
+form{
+display:flex;
+flex-direction:column;
+max-width:400px;
+}
+
+input, textarea{
+margin:10px 0;
+padding:12px;
+border:none;
+border-radius:6px;
+}
+
+footer{
+text-align:center;
+padding:30px;
+background:black;
+}
